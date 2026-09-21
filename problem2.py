@@ -7,6 +7,8 @@ def bologna_latin(string):
   >>> bologna_latin("hello world")
   "ello worldhay"
   >>> bologna_latin("a")
-  ## what should happen here?
+  "aay"
+  >>> bologna_latin("september")
+  "emptembersay"
   """
-  ## add your code here
+  return string[1:] + string[0] + "ay"
