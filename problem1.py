@@ -9,22 +9,15 @@ def ugly_number(n):
   >>> ugly_number(14)
   False
   """
-if n<=0:
-  return False
-while n>=0:
-  if n%2==0:
-    n//2=n
-  elif n%3==0:
-else: n%5==0
-return False
-
-if n<=0:
-  return False
-while n%2==0 or n%3==0 or n%5==0:
-  if n/2==2 or n/3==3 or n/5==5
-  return True
-if n%2 !=0 or n%3 !=0 or n
-  
-
-
-
+def ugly_number(n):
+    while n%3==0 or n%2==0 or n%5==0:
+        if n%3==0:
+            n=n/3
+        elif n%5==0:
+            n=n/5
+        elif n%2==0:
+            n=n/2
+    if n==1:
+        return True
+    elif n!= 1:
+        return False
